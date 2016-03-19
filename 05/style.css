@@ -1,0 +1,16 @@
+.jumbotron {
+  background-image: url(coworking.jpg);
+  padding-top: 10px!important;
+}
+
+.col-md-12   {
+  font-size: 30px!important;
+  text-align: center!important;
+  background-color: #fff;
+}
+
+#meetyourmatch {
+  float: right;
+  background-color: rgba(244, 250, 249, 0.7);
+
+}

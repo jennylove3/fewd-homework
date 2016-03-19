@@ -1,0 +1,162 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+  background-color: blue;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+header {
+  background-color: #033048;
+  height: 100px;
+}
+
+.main {
+  background-color: #F0F3F2;
+  width: 610px;
+  float: left;
+  height: 600px;
+  margin-right: 20px;
+  color: #606161;
+
+
+
+}
+
+.sidebar {
+  background-color: #F0F3F2;
+  float: left;
+  width: 330px;
+  height: 600px;
+  padding-left: 10px;
+  color: #606161;
+
+
+}
+ /* Top Nav Bar */
+nav {
+    text-align: center;
+    float:right;
+    margin-right: 50px;
+    margin-top: 20px;
+    background-color: #033048;
+    font-size: 24px;
+    font-weight:500;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    background: ##033048;
+    color: #f8e53d;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #111;
+}
+
+.logo {
+  float: left;
+  display: inline;
+  margin-top: 20px;
+  margin-left: 56px;
+  font-size: 40px;
+  font-weight: 900;
+
+/* .logo2 {
+
+  margin-top: 20px;
+  margin-left: 56px;
+  font-size: 40px;
+  font-weight: 900;
+
+}*/
+
+
+}
+footer {
+  background-color: #0e0e0e;
+  color: white;
+  height: 400px;
+
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
