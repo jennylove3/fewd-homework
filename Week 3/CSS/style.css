@@ -78,20 +78,28 @@ header {
   background-color: #F0F3F2;
   width: 610px;
   float: left;
-  height: 600px;
+  height: 1000px;
   margin-right: 20px;
   color: #606161;
   display: inline;
+  padding-right: 20;
+
+}
+.main p {
+  font-size: 15px;
 
 
-
+}
+.main h2 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .sidebar {
   background-color: #F0F3F2;
   float: left;
   width: 330px;
-  height: 600px;
+  height: 1000px;
   padding-left: 10px;
   color: #606161;
 }
@@ -130,7 +138,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #111;
+    background:rgba(207, 197, 230, 0.38);
 }
 
 .sidebar ul {
@@ -149,24 +157,22 @@ nav a:hover {
   margin-left: 56px;
   font-size: 40px;
   font-weight: 900;
-
-/* .logo2 {
-
-  margin-top: 20px;
+}
+.logo2 {
+  margin-top: 40px;
   margin-left: 56px;
+  padding-top: 20px;
+}
+.logo2 h1 {
   font-size: 40px;
   font-weight: 900;
-
-}*/
-
-
+  color: #f8e53d!important ;
 }
+
 footer {
   background-color: #0e0e0e;
   color: white;
   height: 400px;
-
-
 }
 
 /******************************************
