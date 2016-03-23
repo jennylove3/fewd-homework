@@ -61,7 +61,7 @@ body {
 #container {
   width: 960px;
   margin: auto;
-  background-color: blue;
+  background-color: #F0F3F2;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
 
@@ -71,6 +71,7 @@ body {
 header {
   background-color: #033048;
   height: 100px;
+  width: 100%;
 }
 
 .main {
@@ -80,6 +81,7 @@ header {
   height: 600px;
   margin-right: 20px;
   color: #606161;
+  display: inline;
 
 
 
@@ -92,9 +94,10 @@ header {
   height: 600px;
   padding-left: 10px;
   color: #606161;
-
-
 }
+
+
+
  /* Top Nav Bar */
 nav {
     text-align: center;
@@ -128,6 +131,15 @@ nav a {
 
 nav a:hover {
     background: #111;
+}
+
+.sidebar ul {
+  font-size: 15px;
+  list-style-type: none;
+}
+.sidebar a {
+  text-decoration: none;
+  color:
 }
 
 .logo {
