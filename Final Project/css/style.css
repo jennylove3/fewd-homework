@@ -1,0 +1,12 @@
+.container-fluid {
+   height:100vh;
+  background-color: rgb(245, 233, 237);
+  background: url(../images/kitty.jpg)!important;
+  /*opacity:.085;*/
+  text-align: center;
+  height:100vh;
+}
+.row {
+  margin: 0 auto;
+  padding-top: 20%;
+}
