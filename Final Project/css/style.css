@@ -1,12 +1,40 @@
-.container-fluid {
-   height:100vh;
+.container-fliud {
+   /*height:100%;*/
   background-color: rgb(245, 233, 237);
   background: url(../images/kitty.jpg)!important;
-  /*opacity:.085;*/
+
+  opacity:.7;
   text-align: center;
-  height:100vh;
+
+}
+#container-wrapper {
+  /*height:100vh;*/
+  background-color: rgb(245, 233, 237);
 }
 .row {
   margin: 0 auto;
   padding-top: 20%;
+}
+h1 {
+  color: black;
+  font-size: 5em;
+  opacity: 1.0;
+}
+
+#landing p {
+  color: rgb(238, 211, 227);
+
+}
+.main-logo {
+  padding-bottom: 10%;
+}
+
+#about {
+  height:100%;
+  display:block;
+}
+#about h1 {
+  color: black;
+  font-size: 5em;
+  opacity: 1.0;
 }
