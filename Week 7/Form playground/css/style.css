@@ -1,0 +1,11 @@
+body {
+  background-color: white;
+}
+input {
+  display: block;
+  margin-bottom:10px;
+  border: none;
+  border-bottom: 1px dotted firebrick;
+
+}
+/* Your CSS goes here */
